@@ -149,9 +149,7 @@ function juegoPerdido() {
     volverBtn.textContent = 'Volver';
     document.body.append(volverBtn);
     volverBtn.onclick = function volver() {
-        contenedorTexto.style.display = 'block';
-        volverBtn.style.display = 'none';
-        puntaje.style.display = 'none';
+        location.reload();
     }
     
 };
